@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root{
+  --brown: #B88E2F;
+  --off-white: #FCF8F3;
+  --light-brown: #FFF3E3;
+}
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
 ul li{
@@ -10,3 +21,54 @@ ul li{
 a{
   text-decoration: none;
 }
+
+.container{
+  width: 1240px;
+  margin: 0 auto;
+}
+header{
+  padding: 30px 0;
+  background: #ffffff;
+}
+header .nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header .nav-wrapper ul{
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+header .nav-wrapper .icons{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+/* banner start */
+#banner{
+  background: url(../assets/scandinavian-interior-mockup-wall-decal-background\ 1.png) no-repeat center center/cover;
+  padding-top: 153px;
+  padding-bottom: 117px;
+}
+#banner .banner-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#banner .banner-text{
+  max-width: 643px;
+  background: var(--light-brown);
+  padding-top: 62px;
+  padding-bottom: 37px;
+  padding-left: 39px;
+  padding-right: 43px;
+}
+
+
+
+
+
+/* banner end */
