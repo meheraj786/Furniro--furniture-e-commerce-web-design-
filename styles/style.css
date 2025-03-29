@@ -10,6 +10,7 @@
   --brown: #B88E2F;
   --off-white: #FCF8F3;
   --light-brown: #FFF3E3;
+  --black: #333333;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -65,10 +66,37 @@ header .nav-wrapper .icons{
   padding-bottom: 37px;
   padding-left: 39px;
   padding-right: 43px;
+  border-radius: 10px;
 }
-
-
-
-
-
+#banner .banner-text h3{
+color: #333333;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 3px;
+}
+#banner .banner-text h1{
+  color: var(--brown);
+  font-size: 52px;
+  line-height: 65px;
+  font-weight: 700;
+  width: 559px;
+  margin-top: 4px;
+}
+#banner .banner-text p{
+color: #333333;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+width: 546px;
+margin-top: 17px;
+margin-bottom: 46px;
+}
+#banner .banner-text button{
+color: white;
+background: var(--brown);
+padding: 25px 72px;
+font-weight: 700 ;
+font-size: 16px;
+border: 1px solid var(--brown);
+}
 /* banner end */
