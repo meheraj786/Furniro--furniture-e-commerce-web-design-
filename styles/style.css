@@ -340,3 +340,23 @@ height: 100%;
   background: var(--brown);
 }
 /* product end  */
+/* rooms start  */
+#rooms{
+  padding: 44px 0;
+  background: #FCF8F3;
+}
+#rooms .rooms-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#rooms .rooms-wrapper{
+  display: flex;
+  align-items: center;
+}
+#rooms .rooms-wrapper .rooms-right{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+/* rooms end  */
