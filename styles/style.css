@@ -22,6 +22,7 @@ button, a{
 
 ul li{
   list-style: none;
+  cursor: pointer;
 }
 a{
   text-decoration: none;
@@ -103,6 +104,14 @@ font-weight: 700 ;
 font-size: 16px;
 border: 1px solid var(--brown);
 }
+#banner .banner-text button:hover{
+color: var(--brown);
+background: transparent;
+padding: 25px 72px;
+font-weight: 700 ;
+font-size: 16px;
+border: 1px solid var(--brown);
+}
 /* banner end */
 /* range start  */
 #range{
@@ -113,6 +122,12 @@ border: 1px solid var(--brown);
   color: var(--black);
   font-size: 32px;
   font-weight: 700;
+}
+#range h3{
+  color: #333333;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
 }
 #range p{
   color: #666666;
