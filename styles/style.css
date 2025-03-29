@@ -440,3 +440,38 @@ height: 100%;
   border: none;
 }
 /* rooms end  */
+/* furtiture start  */
+#furniture{
+  padding: 67px 0;
+  text-align: center;
+}
+#furniture h5{
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+}
+#furniture h2{
+  color: #3A3A3A;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+#furniture .top{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+#furniture .bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+#furniture .bottom .bottomb{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 20px;
+}
+/* furtiture end  */
